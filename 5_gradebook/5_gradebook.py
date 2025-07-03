@@ -45,3 +45,11 @@ print(gradebook)
 gradebook[2].append("Pass")
 
 print(gradebook)
+
+### Using grades from last semester
+
+last_semester_gradebook = [["politics", 80], ["latin", 96], ["dance", 97], ["architecture", 65]]
+
+full_gradebook = gradebook + last_semester_gradebook
+
+print(full_gradebook)

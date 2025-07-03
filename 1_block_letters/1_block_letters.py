@@ -1,2 +1,15 @@
-msg = "Roll a dice!"
-print(msg)
+## Introduction: 
+# Name: Isabelle Martin
+# Fun fact: I like drawing
+
+I = '''
+IIIII
+  I
+  I
+  I
+  I
+  I
+IIIII  
+'''
+
+print(I)

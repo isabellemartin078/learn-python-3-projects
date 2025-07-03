@@ -28,3 +28,20 @@ print(gradebook)
 
 ### Modifying the gradebook
 
+# Modifying visual arts grade
+
+gradebook[-1][-1] = 98
+
+print(gradebook)
+
+# Deleting grade from poetry class
+
+gradebook[2].remove(85)
+
+print(gradebook)
+
+# Adding pass / fail grade to poetry class
+
+gradebook[2].append("Pass")
+
+print(gradebook)

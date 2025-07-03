@@ -66,3 +66,6 @@ L
 LLLLL
 '''
 
+# Printing name
+
+print("My name is " + I + S + A + B + E + L + L + E)

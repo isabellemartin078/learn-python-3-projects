@@ -45,4 +45,4 @@ else:
 
 ## Putting program in action
 
-print(name +  "asks: " question)
+print(str(name) +  "asks: " + str(question))

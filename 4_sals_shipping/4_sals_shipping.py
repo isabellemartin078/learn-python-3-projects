@@ -2,7 +2,7 @@
 
 # Defining weight variable 
 
-weight = 8.4
+weight = 1.5
 
 # Ground shipping cost
 
@@ -15,7 +15,6 @@ elif weight > 6 and weight <= 10:
 else:
     gs_cost = weight * 4.75 + 20
 
-print(gs_cost)
 
 # Premium shipping cost 
 
@@ -32,3 +31,9 @@ elif weight > 6 and weight <= 10:
 else:
     ds_cost = weight * 14.25
 
+
+## Printing off costs
+
+print("Price with ground shipping is: $" + str(gs_cost))
+print("Price with premium shipping is: $" + str(gsp_cost))
+print("Price with drone shipping is: $" + str(ds_cost))

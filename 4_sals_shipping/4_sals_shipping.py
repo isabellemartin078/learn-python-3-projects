@@ -37,3 +37,12 @@ else:
 print("Price with ground shipping is: $" + str(gs_cost))
 print("Price with premium shipping is: $" + str(gsp_cost))
 print("Price with drone shipping is: $" + str(ds_cost))
+
+if gs_cost < gsp_cost and gs_cost < ds_cost:
+    print("Ground shipping is the cheapest option")
+elif gsp_cost < gs_cost and gsp_cost < ds_cost: 
+    print("Ground shipping premium is the cheapest option")
+elif ds_cost < gs_cost and ds_cost < gsp_cost:
+    print("Drone shipping is the cheapest option")
+else: 
+    "There are multiple cheap options!"

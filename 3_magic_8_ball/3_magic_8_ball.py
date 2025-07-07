@@ -16,7 +16,7 @@ answer = ""
 
 import random 
 
-random_number = random.randint(1,9)
+random_number = random.randint(1,12)
 
 print(random_number)
 
@@ -40,9 +40,16 @@ elif random_number == 8:
     answer = "Outlook not so good"
 elif random_number == 9:
     answer = "Very doubtful"
+elif random_number == 10:
+    answer = "Try again"
+elif random_number == 11:
+    answer = "What do you think?"
+elif random_Number == 12:
+    answer = "50/50"
 else:
     answer = "Error"
 
 ## Putting program in action
 
-print(str(name) +  "asks: " + str(question))
+print(str(name) +  " asks: " + str(question))
+print("Magic 8-Ball's answer: " + str(answer))

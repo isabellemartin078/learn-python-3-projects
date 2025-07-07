@@ -6,7 +6,7 @@ name = "Isabelle"
 
 # Determining question
 
-question = "Is it raining?"
+question = ""
 
 # Determing answer 
 
@@ -44,12 +44,19 @@ elif random_number == 10:
     answer = "Try again"
 elif random_number == 11:
     answer = "What do you think?"
-elif random_Number == 12:
+elif random_number == 12:
     answer = "50/50"
 else:
     answer = "Error"
 
 ## Putting program in action
 
-print(str(name) +  " asks: " + str(question))
-print("Magic 8-Ball's answer: " + str(answer))
+if name == "":
+    print(str(question))
+else: 
+    print(str(name) +  " asks: " + str(question))
+
+if question == "":
+    print("Ask a question!")
+else:
+    print("Magic 8-Ball's answer: " + str(answer))

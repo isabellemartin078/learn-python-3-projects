@@ -17,3 +17,13 @@ for price in prices:
 
 average_price = total_price / len(prices)
 print("Average Haircut Price: $" + str(average_price))
+
+new_prices = [num - 5 for num in prices]
+
+## Revenue
+
+total_revenue = 0
+
+for i in range(len(hairstyles)):
+    total_revenue += (prices[i] * last_week[i])
+print("Total Revenue: $" + str(total_revenue))
